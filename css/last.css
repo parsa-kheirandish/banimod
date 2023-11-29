@@ -1,0 +1,264 @@
+/* first part ----------------------------------------------------------------------------------- */
+
+.custumer {
+  width: 100%;
+  height: 400px;
+}
+.custumer .center {
+  width: 1330px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+.custumer .center .custum {
+  width: 270px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custumer .center .custum #t {
+  width: 100px;
+  margin: 0 auto;
+}
+.custumer .center .custum #t-2 {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.custumer .center .custum #tt {
+  padding: 3px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 26px;
+  color: rgb(95, 94, 94);
+  margin-top: 10px;
+}
+.custumer .center .custum #tb {
+  text-align: center;
+  color: rgb(170, 150, 150);
+  font-size: 14px;
+  font-weight: 26px;
+  margin-top: 20px;
+}
+
+.custumer .center .custum #b {
+  position: absolute;
+  width: inherit;
+  margin: 0 auto;
+  margin-top: 20px;
+  opacity: 7%;
+}
+.custumer .center .custum:hover #b {
+  cursor: pointer;
+  opacity: 15%;
+}
+
+/* second part ----------------------------------------------------------------------------------- */
+/* best brands-------------------------- */
+.bestbrands {
+  width: 100%;
+  height: 400px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bestbrands .besthead {
+  width: inherit;
+  height: 50px;
+  text-align: center;
+  margin-top: 60px;
+}
+.bestbrands .besthead .best-title span {
+  font-size: 27px;
+}
+
+/* swiper --------------------------------- */
+.bestbrands .bestbody {
+  margin-top: 40px;
+  width: 100%;
+  height: 110px;
+}
+.bestbrands .bestbody .center {
+  width: 1430px;
+  height: 110px;
+  border: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.bestbrands .bestbody .center div {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.bestbrands .bestbody .center img {
+  object-fit: cover;
+  width: 140px;
+}
+.bestbrands .bestfoot .bestbut {
+  width: 270px;
+  height: 50px;
+  margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  border: 1px solid black;
+  border-radius: 24px;
+}
+.bestbrands .bestfoot .bestbut a {
+  color: #0ea164;
+}
+.bestbrands .bestfoot .bestbut:hover {
+  border: 1px solid #00bf6f;
+}
+.bestbrands .bestfoot .bestbut:hover a {
+  color: #00bf6f;
+}
+
+/* end swiper --------------------- */
+/* newest  -------------------------------------------------------------------------------- */
+.newest {
+  width: 100%;
+  height: 530px;
+}
+.newest .center {
+  width: 1430px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  margin: 0 auto;
+}
+.newest .center .newhead {
+  margin-top: 70px;
+  width: inherit;
+  height: 50px;
+  font-size: 27px;
+  text-align: center;
+}
+
+/* swiper newest/.............................................. */
+.newbody {
+  width: inherit;
+  height: 310px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.swiper-wrapper {
+  flex-flow: column wrap;
+}
+.newbody .ntext {
+  margin-top: 25px;
+}
+.newbody span {
+  font-size: 15px;
+  color: black;
+}
+
+/* endswiper newest/.............................................. */
+
+.newfoot .newbut {
+  width: 270px;
+  height: 50px;
+  margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  border: 1px solid black;
+  border-radius: 24px;
+}
+.newfoot .newbut a {
+  color: #0ea164;
+}
+.newfoot .newbut:hover {
+  border: 1px solid #00bf6f;
+}
+.newfoot .newbut:hover a {
+  color: #00bf6f;
+}
+
+/* end newest bani-------------------------------------------------------------------------------- */
+/* mail....---------------------------- */
+.mail {
+  width: 100%;
+  height: 430px;
+}
+.mail .backmail {
+  position: absolute;
+  width: 1430px;
+  height: 240px;
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  margin-right: calc(50% - 1430px / 2);
+  background-image: url(../images/mail.svg);
+  background-repeat: no-repeat;
+}
+.mail .backmail div {
+  margin-top: 50px;
+  text-align: center;
+}
+.mail .backmail span {
+  font-size: 26px;
+}
+.mail .backmail p {
+  margin-top: 20px;
+}
+
+.mail .sendmail {
+  width: 650px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 280px;
+  margin-right: calc(50% - 650px / 2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mail .sendmail .inputmail input {
+  margin-right: 15px;
+  width: 450px;
+  height: 55px;
+  font-size: 15px;
+  background-color: #f8f8f8;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 24px;
+  outline: 0;
+}
+.mail .sendmail .inputmail input:focus{
+  background-color: rgb(236, 229, 229);
+}
+.mail .sendmail .buttonmail {
+  width: 140px;
+  height: 55px;
+  background-color: #00bf6f;
+  margin-left: 20px;
+  border-radius: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail .sendmail .buttonmail a {
+  padding-right: 20px;
+  line-height: 55px;
+  color: whitesmoke;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.mail .sendmail .buttonmail img {
+  padding-left: 10px;
+  width: 40px;
+}
+.mail .sendmail .buttonmail:hover {
+  cursor: pointer;
+  background-color: #0ea164;
+}

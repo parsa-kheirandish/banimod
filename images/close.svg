@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.83" height="24.374" viewBox="0 0 24.83 24.374">
+    <defs>
+        <style>
+            .cls-1{fill:#adadad;stroke:#adadad}
+        </style>
+    </defs>
+    <g id="Group_16" data-name="Group 16" transform="translate(.5 .574)">
+        <g id="Close">
+            <path id="Shape" d="M10.775 11.654L.227 22.039a.73.73 0 0 0 0 1.045.758.758 0 0 0 1.06 0L11.915 12.62l10.627 10.464a.758.758 0 0 0 1.06 0 .73.73 0 0 0 0-1.045L13.055 11.654 23.61 1.261a.73.73 0 0 0 0-1.045.758.758 0 0 0-1.06 0L11.915 10.687 1.28.216a.758.758 0 0 0-1.06 0 .73.73 0 0 0 0 1.045z" class="cls-1"/>
+        </g>
+    </g>
+</svg>

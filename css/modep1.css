@@ -1,0 +1,169 @@
+/* part-1 ----------------------------------------------------------- */
+.preview {
+  width: 100%;
+  height: 320px;
+  background-color: aqua;
+}
+
+/* branding------------------ */
+.branding {
+  width: 100%;
+  height: 280px;
+}
+.branding .title {
+  width: 1430px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.branding .title span {
+  font-size: 28px;
+}
+
+.branding .brandimages {
+  width: 100%;
+  height: 240px;
+}
+.branding .brandimages .images {
+  width: 1430px;
+  height: 155px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.branding .brandimages .images img {
+  width: 110px;
+}
+.branding .brandimages .images img:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+  transition: 500ms;
+}
+/*  end branding------------------ */
+.mode-categories {
+  width: 100%;
+  height: 360px;
+}
+.mode-categories .title {
+  width: 1430px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.mode-categories .title span {
+  font-size: 28px;
+}
+.mode-categories .images {
+  width: 1430px;
+  height: 275px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.mode-categories .images img {
+  width: 330px;
+}
+.mode-categories .images img:hover {
+  transform: scale(1.03, 1.03);
+  cursor: pointer;
+  transition: 500ms;
+}
+
+/*end part-1 ----------------------------------------------------------- */
+
+/* part swiper---------------------------------------------------- */
+.highsale {
+  width: 100%;
+  height: 730px;
+}
+.highsale .highcenter {
+  width: 1430px;
+  height: inherit;
+  margin: 0 auto;
+}
+
+/* top head */
+.highsale .highcenter .highhead {
+  width: inherit;
+  height: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+.highsale .highcenter .highhead .high-title span {
+  font-size: 27px;
+}
+/* end top head */
+
+/* body */
+.highbody {
+  width: 100%;
+  height: 550px;
+}
+.highbody .center {
+  width: 1430px;
+  height: inherit;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* end body */
+/* foot */
+.highsale .highcenter .highfoot {
+  width: inherit;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highsale .highcenter .highfoot .highbut {
+  width: 270px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  border: 1px solid black;
+  border-radius: 24px;
+}
+.highsale .highcenter .highfoot .highbut a {
+  color: #0ea164;
+}
+.highsale .highcenter .highfoot .highbut:hover {
+  border: 1px solid #00bf6f;
+}
+.highsale .highcenter .highfoot .highbut:hover a {
+  color: #00bf6f;
+}
+
+/* end foot */
+
+/* end part swiper---------------------------------------------------- */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

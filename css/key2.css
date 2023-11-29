@@ -1,0 +1,49 @@
+.play {
+  width: 100%;
+  height: 260px;
+}
+.play .center {
+  width: 1430px;
+  height: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.play .center .pleft,
+.pright {
+  margin-left: 20px;
+  width: 670px;
+  height: 200px;
+}
+.play .center .pleft:hover {
+  transform: scale(1.03, 1.03);
+  cursor: pointer;
+}
+.play .center .pright:hover {
+  transform: scale(1.03, 1.03);
+  cursor: pointer;
+}
+/* play-2 */
+.play-2 {
+  width: 100%;
+  height: 260px;
+}
+.play-2 .center {
+  width: 1430px;
+  height: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.play-2 .center .pcenter {
+  margin-left: 20px;
+  width: 1430px;
+  height: 200px;
+}
+.play-2 .center .pcenter:hover {
+  transform: scale(1.03, 1.03);
+  cursor: pointer;
+}

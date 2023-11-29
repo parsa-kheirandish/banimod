@@ -1,0 +1,104 @@
+.product1 {
+  width: 100%;
+  height: 505px;
+}
+.product1 .center {
+  width: 1430px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.product1 .center .pr1-l {
+  width: 450px;
+  height: 450px;
+  border-radius: 16px;
+}
+.product1 .center .pr1-r {
+  width: 930px;
+  height: 450px;
+}
+.product1 .center .pr1-r img {
+  border-radius: 16px;
+  width: 930px;
+}
+
+/* product2 */
+.product2 {
+  width: 100%;
+  height: 505px;
+}
+.product2 .center {
+  width: 1430px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.product2 .center .pr2-l {
+  width: 450px;
+  height: 450px;
+  background-color: blueviolet;
+}
+.product2 .center .pr2-r {
+  width: 930px;
+  height: 450px;
+  background-color: red;
+}
+
+/* swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  border-radius: 16px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* products: */
+
+.products {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .center-pro {
+  width: 1430px;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.products .center-pro div {
+  width: 190px;
+  padding: 5px;
+}
+.products .center-pro div:hover{
+  transition: 300ms;
+  padding: 0px;
+  margin: 0px 5px ;
+}
+.products .center-pro .pro {
+  width: 190px;
+}
+

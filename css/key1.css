@@ -1,0 +1,45 @@
+/* part-1 ----------------------------------------------------------- */
+.preview {
+  width: 100%;
+  height: 320px;
+  background-color: aqua;
+}
+/* branding------------------ */
+.branding {
+  width: 100%;
+  height: 280px;
+}
+.branding .title {
+  width: 1430px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.branding .title span {
+  font-size: 28px;
+}
+
+.branding .brandimages {
+  width: 100%;
+  height: 240px;
+}
+.branding .brandimages .images {
+  width: 1430px;
+  height: 155px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.branding .brandimages .images img {
+  width: 110px;
+}
+.branding .brandimages .images img:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+  transition: 500ms;
+}
+/*  end branding------------------ */

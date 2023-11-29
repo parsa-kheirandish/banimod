@@ -1,0 +1,355 @@
+header {
+  width: 100%;
+  height: 200px;
+}
+/* top header */
+header .th {
+  width: inherit;
+  height: 60px;
+}
+header .th a {
+  width: inherit;
+  height: inherit;
+  display: block;
+}
+header .th a img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+/* end top header */
+/* bottom header */
+header .bh {
+  width: inherit;
+  height: 140px;
+}
+header .bh .tbh {
+  width: inherit;
+  height: 95px;
+}
+header .bh .tbh .center {
+  width: 1440px;
+  height: inherit;
+  margin: 0 auto;
+}
+header .bh .tbh .center .login {
+  width: 350px;
+  height: inherit;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+header .bh .tbh .center .login img {
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+header .bh .tbh .center .login .button {
+  width: 145px;
+  height: 45px;
+  background-color: #00bf6f;
+  line-height: 45px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 28px;
+  vertical-align: middle;
+  margin-left: 130px;
+  border-radius: 28px;
+}
+header .bh .tbh .center .login .button:hover {
+  background-color: #009657;
+  transition: 300ms;
+}
+header .bh .tbh .center .login img:hover {
+  width: 45px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: 300ms;
+}
+
+header .bh .tbh .center .search {
+  width: 780px;
+  height: inherit;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+header .bh .tbh .center .search input {
+  width: 710px;
+  height: 50px;
+  background-color: #f5f5f5;
+  border-radius: 28px;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 35px;
+  text-decoration: none;
+  border: 0;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+header .bh .tbh .center .search input:focus {
+  background-color: rgb(236, 229, 229);
+  outline: 0;
+}
+header .bh .tbh .center .search img {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+  position: absolute;
+}
+header .bh .tbh .center .logo {
+  width: 305px;
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+}
+header .bh .tbh .center .logo img {
+  margin-top: 28px;
+}
+header .bh .tbh .center .logo img:hover {
+  cursor: pointer;
+  margin-top: 30px;
+}
+header .bh .bbh {
+  width: 100%;
+  height: 45px;
+}
+/* menu ------------------------------------------------------------------------------- */
+
+:root {
+  --bani-green: #19c976;
+  --bani-green-hover: #01bf6e;
+  --bani-light-gray: #f5f5f5;
+  --bani-dark-gray: #bbbec0;
+  --bani-gray-text: #6d6e71;
+  --bani-icon: #2f2f2f;
+  --bani-background: #ffffff;
+  --bani-orange: #f16421;
+  --bani-news-background: #f8f8f8;
+}
+@keyframes drowpdown {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+a,
+ul,
+li,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* --------------------------------------------------------- menu--------> */
+.menu-container {
+  width: inherit;
+  height: auto;
+  position: relative;
+  direction: ltr;
+  margin-right: 35px;
+}
+.menuu {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.menuuu {
+  vertical-align: middle;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.menu-container ul {
+  width: fit-content;
+  height: 40px;
+  position: absolute;
+  text-align: right;
+  padding: 0;
+  right: 0;
+}
+.menu-container ul li {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+  position: relative;
+  margin-right: 15px;
+}
+.menu-container ul li a {
+  display: block;
+  width: auto;
+  height: inherit;
+  line-height: 40px;
+  font-family: yekan;
+  font-size: 12px;
+  transition: 300ms linear;
+  color: black;
+  cursor: pointer;
+}
+.menu-container ul li a:hover {
+  border-bottom: 2px solid var(--bani-green);
+  transition: 0ms;
+}
+.menu-container #pipe {
+  margin-top: 10px;
+  color: var(--bani-dark-gray);
+  margin-left: 5px;
+}
+/* ---------------------------------------------------------end menu--------> */
+/* ---------------------------------------------------------sub-menu--------> */
+.menu-container ul li:hover div.submenu-categories,
+.menu-container ul li:hover div.submenu-sale {
+  display: block;
+}
+.menu-container li div.submenu-categories,
+.menu-container li div.submenu-sale {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: var(--bani-background);
+  border-radius: 0 0 15px 15px;
+  box-shadow: 1px 5px 10px gray;
+  animation-name: drowpdown;
+  animation-duration: 500ms;
+  z-index: 2;
+}
+.menu-container li div.submenu-categories {
+  width: 85vw;
+  height: 70vh;
+  padding: none !important;
+  overflow-y: scroll;
+}
+.menu-container li div.submenu-sale {
+  width: 300px;
+  padding: 20px 20px 20px 0;
+}
+.submenu-sale {
+  width: 120px !important;
+  padding: 5px !important;
+  box-sizing: border-box !important;
+  margin-right: 8px !important;
+  margin-top: 3px !important;
+}
+.submenu-sale div:first-child a {
+  font-size: 12px;
+  font-weight: 1000;
+}
+.submenu-sale div:not(:first-child) a {
+  color: var(--bani-gray-text);
+}
+.submenu-sale div i {
+  margin-left: 5px;
+  color: var(--bani-green);
+}
+.submenu-categories div.categories-border {
+  width: 200px;
+  height: fit-content !important;
+  border-radius: 0 0 15px 0px;
+  border-left: 3px solid var(--bani-dark-gray);
+  display: inline-block;
+  direction: rtl;
+}
+.submenu-categories div div {
+  height: 60px;
+}
+.submenu-categories div div:hover {
+  background-color: var(--bani-light-gray);
+  color: var(--bani-green-hover);
+}
+.submenu-categories div div a {
+  padding: 0 20px 20px 0;
+  font-size: 13px;
+  line-height: 60px;
+}
+.submenu-categories div div a i {
+  padding-left: 5px;
+  font-size: 20px;
+  line-height: 60px;
+}
+.submenu-sale div a {
+  font-size: 10px;
+  color: black;
+}
+.categories-title {
+  font-size: 16px !important;
+}
+.submenu-categories div a:hover,
+.submenu-sale div a:hover {
+  color: var(--bani-green-hover);
+  border: none !important;
+}
+.sublogo {
+  width: 18px;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+/* ----------------------------------------------------- end sub-menu--------> */
+/* ----------------------------------------------------- sub-submenu--------> */
+.sub-submenu {
+  display: none;
+  position: absolute;
+  width: fit-content;
+  height: 100% !important;
+  top: 0;
+  right: 198px;
+  animation-name: drowpdown;
+  animation-duration: 500ms;
+}
+.submenu-categories div div:hover .sub-submenu {
+  display: block;
+  background-color: unset;
+}
+.sub-submenu div {
+  height: 40px !important;
+}
+.sub-submenu div a,
+.sub-submenu div i {
+  all: unset;
+  color: black;
+  line-height: 20px !important;
+}
+.sub-submenu #pipe-2 {
+  font-size: medium;
+  color: var(--bani-green);
+}
+.sub-submenu div:first-child a,
+.sub-submenu div:first-child {
+  font-size: 16px;
+  margin: 10px 0 20px 0;
+}
+.sub-submenu div:hover {
+  background-color: unset !important;
+  color: var(--bani-green-hover);
+}
+.sub2-submenu a {
+  font-size: 12px !important;
+  font-weight: 100;
+  color: var(--bani-gray-text) !important;
+}
+.sub2-submenu a:hover {
+  color: var(--bani-green-hover) !important;
+}
+/* ------------------------------------------------- end sub-submenu--------> */
+
+header .bh hr {
+  border: 1px solid #f8f4f4;
+}
